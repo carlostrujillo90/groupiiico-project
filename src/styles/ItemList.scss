@@ -1,0 +1,24 @@
+ul.ItemList {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem auto;
+  max-width: 1560px;
+
+  li {
+    width: 25%;
+    list-style-type: none;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    li {
+      width: 33.33%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    li {
+      width: 50%;
+    }
+  }
+}

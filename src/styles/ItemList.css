@@ -1,0 +1,28 @@
+ul.ItemList {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 5rem auto;
+  max-width: 1560px;
+}
+
+ul.ItemList li {
+  width: 25%;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  ul.ItemList li {
+    width: 33.33%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  ul.ItemList li {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=ItemList.css.map */
