@@ -1,3 +1,29 @@
+div.ItemWrapper {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+input.SearchBar {
+  width: 15%;
+  padding: 1rem;
+  font-size: larger;
+}
+
+form.SortBy,
+form.Direction {
+  font-size: larger;
+}
+
+form.SortBy select,
+form.Direction select {
+  margin: 1rem;
+  font-size: 1em;
+  padding: 0.75rem;
+}
+
 ul.ItemList {
   padding: 0;
   display: flex;
@@ -20,5 +46,22 @@ ul.ItemList {
     li {
       width: 50%;
     }
+  }
+}
+
+div.PaginationBtn {
+  text-align: center;
+
+  button {
+    font-size: 4em;
+    padding: 0 2rem;
+    border-radius: 8px;
+    margin-bottom: 8rem;
+    background-color: #f2f2f2 !important;
+  }
+
+  button:hover {
+    color: #f2f2f2;
+    background-color: black !important;
   }
 }

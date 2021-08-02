@@ -1,3 +1,38 @@
+div.ItemWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+input.SearchBar {
+  width: 15%;
+  padding: 1rem;
+  font-size: larger;
+}
+
+form.SortBy,
+form.Direction {
+  font-size: larger;
+}
+
+form.SortBy select,
+form.Direction select {
+  margin: 1rem;
+  font-size: 1em;
+  padding: 0.75rem;
+}
+
 ul.ItemList {
   padding: 0;
   display: -webkit-box;
@@ -24,5 +59,22 @@ ul.ItemList li {
   ul.ItemList li {
     width: 50%;
   }
+}
+
+div.PaginationBtn {
+  text-align: center;
+}
+
+div.PaginationBtn button {
+  font-size: 4em;
+  padding: 0 2rem;
+  border-radius: 8px;
+  margin-bottom: 8rem;
+  background-color: #f2f2f2 !important;
+}
+
+div.PaginationBtn button:hover {
+  color: #f2f2f2;
+  background-color: black !important;
 }
 /*# sourceMappingURL=ItemList.css.map */
